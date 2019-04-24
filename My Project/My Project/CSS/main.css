@@ -1,0 +1,144 @@
+.h1 {
+    color: #2d3c49;
+    text-align: right;
+    margin:0px
+}
+
+.h2 {
+    color: #2d3c49;
+    text-align: right;
+    margin:0px
+}
+
+.hr {
+    
+    color:red;
+    height:10px;
+    width:100%;
+    background-color: blue
+}
+
+.p1 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 15px;
+    
+    
+}
+
+.pic1 {
+    
+    height:300px;
+    width:100%;
+    
+}
+
+.h3 {
+    
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.img1 {
+    width:400px;
+    height:400px; 
+    align-content: flex-start
+    
+}
+
+
+.logo {
+    
+    width:100px;
+    height: 100px;
+    align-content: flex-start;
+}
+
+.headerContainer{
+    
+    display:flex;
+    
+    
+}
+
+.insideHeader{
+    
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.photoBody{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+      
+}
+
+.imageAndText1 {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageAndText2 {
+    
+   
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.imageAndText3 {
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img1 {
+   
+    height: 350px;
+    width: 350px;
+    margin:30px;
+    
+}
+
+.img2 {
+   
+    height: 350px;
+    width: 350px;
+    margin:30px;
+    
+}
+
+.img3 {
+   
+    height: 350px;
+    width: 350px;
+    margin:30px;
+    
+}
+
+.footer {
+    
+    text-align: right;
+}
+
+
+@media screen and (max-width: 450px) { 
+    
+    .photoBody { flex-direction: column; } }
+
+
+@media screen and (max-width: 850px) { 
+    
+    .photoBody { flex-direction: column; } }
